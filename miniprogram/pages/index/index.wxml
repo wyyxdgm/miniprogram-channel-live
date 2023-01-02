@@ -1,0 +1,8 @@
+<!--packageDemos/pages/channelsLive/getLiveInfo.wxml-->
+
+EasyAR的视频号ID：{{finderUserName}}
+
+<button class="btn" type="primary" loading="{{loading}}" disabled="{{disabled}}" bindtap="onTap">
+  获取视频号信息
+</button>
+
